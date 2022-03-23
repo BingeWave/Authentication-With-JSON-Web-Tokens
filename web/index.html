@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Copy and Paste The Embed Script Tag Here-->
+        <script type="text/javascript" src="https://connect.bingewave.com/connect.js"></script>
+        <script type="text/javascript">
+            //Replace xxxx with the users auth token
+            BingewaveConnector.init({auth_token : 'xxxxxxx'});
+        </script>
+
+    </head>
+    <body>
+        <h1 class="text-center">My Basic Chat Video App</h1>
+
+        <div class="">
+            <!-- Replace XXXX with the ID of the live event -->
+            <bw:widget env="prod" type="webrtc" id="xxxxxx"></bw:widget>
+        </div>
+
+    </body>
+</html>
